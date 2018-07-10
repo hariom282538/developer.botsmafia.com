@@ -77,3 +77,8 @@ function randomize_matrix()
     clearInterval(anim);
     anim = setInterval(draw, drawTime);
 }
+
+
+
+  document.getElementById("randomize_matrix_fn").addEventListener("click",randomize_matrix);
+
